@@ -5,7 +5,7 @@ import eventsImage from "./assets/images/events.png";
 
 const concepts = [
   {
-    title: "Components test",
+    title: "Components",
     image: componentsImage,
     description:
       "Components let you split the UI into independent, reusable pieces, and think about each piece in isolation. Components can receive data via props, and they can render dynamic output using JSX.",
