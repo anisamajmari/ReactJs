@@ -63,6 +63,10 @@ const App = () => {
     },
   ];
 
+  const addExpenseHandler = (expenseData) => {
+    console.log(expenseData);
+  };
+
   // return React.createElement(
   //   "div",
   //   {},
@@ -72,7 +76,7 @@ const App = () => {
 
   return (
     <div>
-      <NewExpense />
+      <NewExpense addedExpenses={addExpenseHandler} />
       <Expenses expenses={expenses} />
     </div>
   );
