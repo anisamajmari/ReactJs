@@ -28,28 +28,36 @@ const ExpenseForm = () => {
 
   const amountChangeHandler = (event) => {
     setEnteredAmount(event.target.value);
-
-    // setUserInput({
-    //   ...userInput,
-    //   enteredAmount: event.target.value,
-    // });
   };
 
   const dateChangeHandler = (event) => {
     setEnteredDate(event.target.value);
-
-    // setUserInput({
-    //   ...userInput,
-    //   enteredDate: event.target.value,
-    // });
   };
+
+  // Shared function
+  //   const inputChangeHandler = (identifier, value) => {
+  //     if (identifier === "title") {
+  //       setEnteredTitle(value);
+  //     } else if (identifier === "date") {
+  //       setEnteredDate(value);
+  //     } else {
+  //       setEnteredAmount(value);
+  //     }
+  //   };
 
   return (
     <form>
       <div className="new-expense__controls">
         <div className="new-expense__control">
           <label>Title</label>
-          <input type="text" onChange={titleChangeHandler} />
+          <input
+            type="text"
+            // Shared function
+            // onChange={(event) =>
+            //   inputChangeHandler("title", event.target.value)
+            // }
+            onChange={titleChangeHandler}
+          />
         </div>
         <div className="new-expense__control">
           <label>Amount</label>
