@@ -1,11 +1,1 @@
-{
-  "events": [
-    {
-      "id": "e1",
-      "title": "A dummy event",
-      "date": "2023-02-22",
-      "image": "https://blog.hubspot.de/hubfs/Germany/Blog_images/Optimize_Marketing%20Events%20DACH%202021.jpg",
-      "description": "Join this amazing event and connect with fellow developers."
-    }
-  ]
-}
+{"events":[{"title":"efer","image":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fevent%2F&psig=AOvVaw33f__blERJdU_zq_-MesaM&ust=1697037352764000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPDF4_bi64EDFQAAAAAdAAAAABAJ","date":"2023-10-18","description":"sdfawef","id":"8d4c4b2a-1f77-4443-9e37-2b8134c618c6"},{"title":"zsefw","image":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fevent%2F&psig=AOvVaw33f__blERJdU_zq_-MesaM&ust=1697037352764000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPDF4_bi64EDFQAAAAAdAAAAABAJ","date":"2023-10-10","description":"jkefhwe","id":"45f05c91-ce9f-467d-89a7-4b24e6974869"},{"title":"tetetete","image":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fevent%2F&psig=AOvVaw33f__blERJdU_zq_-MesaM&ust=1697037352764000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPDF4_bi64EDFQAAAAAdAAAAABAJ","date":"2023-10-10","description":"tetete","id":"34779f26-4db5-4e51-8a24-cc8b82bfc721"},{"title":"title test","image":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fwedding-event&psig=AOvVaw33f__blERJdU_zq_-MesaM&ust=1697037352764000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPDF4_bi64EDFQAAAAAdAAAAABAE","date":"2023-10-11","description":"this is a test","id":"9e24924a-a2c3-4316-862f-161baea26b97"},{"id":"e1","title":"A dummy event","date":"2023-02-22","image":"https://blog.hubspot.de/hubfs/Germany/Blog_images/Optimize_Marketing%20Events%20DACH%202021.jpg","description":"Join this amazing event and connect with fellow developers."}]}
