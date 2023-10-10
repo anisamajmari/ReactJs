@@ -6,6 +6,8 @@
 //    - EventDetailPage
 //    - NewEventPage
 //    - EditEventPage
+// DONE
+
 // 2. Add routing & route definitions for these five pages
 //    - / => HomePage
 //    - /events => EventsPage
