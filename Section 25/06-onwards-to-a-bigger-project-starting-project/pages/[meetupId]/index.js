@@ -13,4 +13,22 @@ function MeetupDetails() {
   );
 }
 
+export async function getStaticProps(context) {
+  const meetupId = context.params.meetupId;
+  console.log(meetupId);
+
+  return {
+    props: {
+      meetupData: {
+        image:
+          "https://d38b044pevnwc9.cloudfront.net/cutout-nuxt/enhancer/2.jpg",
+        id: meetupId,
+        title: "First Meetup",
+        address: "Some address",
+        description: "this is a first meetup",
+      },
+    },
+  };
+}
+
 export default MeetupDetails;
