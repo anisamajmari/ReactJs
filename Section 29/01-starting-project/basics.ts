@@ -24,3 +24,9 @@ person = {
 };
 
 let people: { name: string; age: number }[];
+
+// Type inference
+
+let course = "React - The complete guide";
+// course = 123;    ERROR
+course = "React";
