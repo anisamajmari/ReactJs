@@ -16,17 +16,22 @@ isInstructor = true;
 let hobbies: string[];
 hobbies = ["Sports", "Cooking"];
 
-let person: { name: string; age: number };
+type Person = { name: string; age: number };
+
+let person: Person;
 
 person = {
   name: "Anisa",
   age: 22,
 };
 
-let people: { name: string; age: number }[];
+let people: Person[];
 
 // Type inference
 
 let course = "React - The complete guide";
 // course = 123;    ERROR
 course = "React";
+
+// let courses: string | number = "JavaScript and React";
+// courses = 111;
