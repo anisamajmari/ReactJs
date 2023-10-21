@@ -11,3 +11,16 @@ userName = "Anisa";
 
 let isInstructor: Boolean;
 isInstructor = true;
+
+//  More complex types
+let hobbies: string[];
+hobbies = ["Sports", "Cooking"];
+
+let person: { name: string; age: number };
+
+person = {
+  name: "Anisa",
+  age: 22,
+};
+
+let people: { name: string; age: number }[];
