@@ -1,8 +1,10 @@
 import { MongoClient } from "mongodb";
 import dotenv from "dotenv";
 dotenv.config();
+import Head from "next/head";
 
 import MeetupList from "../components/meetups/MeetupList";
+import { Fragment } from "react";
 
 // const DUMMY_MEETUPS = [
 //   {
@@ -28,7 +30,18 @@ function HomePage(props) {
   //   setLoadedMeetups(DUMMY_MEETUPS);
   // }, []);
 
-  return <MeetupList meetups={props.meetups} />;
+  return (
+    <Fragment>
+      <Head>
+        <title>React Meetups</title>
+        <meta
+          name="description"
+          content="Browse a huge list of highly active React meetups!"
+        />
+      </Head>
+      <MeetupList meetups={props.meetups} />
+    </Fragment>
+  );
 }
 
 // export async function getServerSideProps(context) {
