@@ -1,12 +1,13 @@
 import { MongoClient } from "mongodb";
+import dotenv from "dotenv";
+dotenv.config();
 
 async function handler(req, res) {
   if (req.method === "POST") {
     const data = req.body;
 
-    const client = await MongoClient.connect(
-      "mongodb+srv://Anisa:anisa123@atlascluster.ohxevoj.mongodb.net/meetups?retryWrites=true&w=majority"
-    );
+    console.log(process.env.MONGO_URI);
+    const client = await MongoClient.connect(process.env.MONGO_URI);
     const db = client.db();
 
     const meetupsCollection = db.collection("meetups");
